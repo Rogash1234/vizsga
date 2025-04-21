@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Vedd fel velünk a kapcsolatot! Személyszállítás a Balatonnál - gyors válasz, pontos indulás. Kérj árajánlatot most.">
+    <title>Kapcsolat - Magyar Tenger Taxi</title>
+    <meta property="og:title" content="Kapcsolat | Magyar Tenger Taxi">
+    <meta property="og:description"
+        content="Keress minket bizalommal! Árajánlat, időpont-egyeztetés, kérdések - gyors válasz, megbízható személyszállítás a Balaton körül.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.magyartengertaxi.hu/contact.html">
+    <meta property="og:image" content="https://www.magyartengertaxi.hu/img/og-image.jpg">
+    <meta name="theme-color" content="#1b2750">
+    <meta property="og:site_name" content="Magyar Tenger Taxi">
+    <meta property="og:locale" content="hu_HU">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kapcsolat - Magyar Tenger Taxi">
+    <meta name="twitter:description"
+        content="Írj nekünk vagy hívj bátran! Kényelmes és rugalmas személyszállítás a Balatonnál.">
+    <meta name="twitter:image" content="https://www.magyartengertaxi.hu/img/twitter-card.jpg">
+    <link rel="stylesheet" href="css/styles_vizsga.css">
+    <link rel="icon" type="image/png" href="img/favicon_black-white.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="hero-background"></div>
+
+    <nav class="nav">
+        <a href="index_vizsga.html">
+            <div class="logo"><img src="img/logo_white.png"></div>
+        </a>
+        <ul class="menu">
+            <li><a href="index_vizsga.html">Kezdőlap</a></li>
+            <li><a href="services.html">Szolgáltatások</a></li>
+            <li><a href="about_us.html">Rólunk</a></li>
+            <li><a href="contact.html">Kapcsolat</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+    <div class="nav-separator"></div>
+
+    <section class="contact_section">
+        <h1 class="hero-main">Kapcsolat</h1>
+        <span class="hero-divider-wrapper">
+            <span class="hero-divider"></span>
+        </span>
+    </section>
+
+    <div class="form_content">
+        <div id="form">
+            <form action="" method="get">
+                <label for="name">Név</label>
+                <input type="text" name="name" id="name" placeholder="Kovács Béla" required>
+                <label for="email">Email-cím</label>
+                <input type="email" name="email" id="email" placeholder="example@email.com">
+                <label for="message">Üzenet</label>
+                <textarea name="message" maxlength="5000" id="message"></textarea>
+                <div class="form_data">
+                    <input type="checkbox" id="privacy_policy" required>
+                    <label for="privacy_policy">
+                        Az Adatkezelési Tájékoztatóban foglaltakat elolvastam és tudomásul vettem.
+                    </label>
+                </div>
+                <input type="submit" value="Üzenet küldése">
+        </div>
+        </form>
+    </div>
+
+    <a href="tel:+36301234567" class="cta-button">
+        <i class="fa-solid fa-phone fa-lg icon-outline"></i> Hívás azonnal
+    </a>
+
+    <footer>
+        <p>&copy; 2025 Magyar Tenger Taxi - Személyszállítás a Balaton körül</p>
+        <p>Telefon: +36 12 345 6789 | E-mail: info@magyartengertaxi.hu</p>
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/magyartengertaxi" target="_blank" aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/magyartengertaxi" target="_blank" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/toggle_menu.js"></script>
+    <script src="js/form_validate.js"></script>
+</body>
+
+</html>
