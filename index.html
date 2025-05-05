@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +12,7 @@
         content="Gyors, kényelmes és megbízható fuvar a Balatonnál. Foglalj most online vagy telefonon.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.magyartengertaxi.hu">
-    <meta property="og:image" content="https://www.magyartengertaxi.hu/img/og-image.jpg"> <!--Majd fel kell tennem "og-image.jpg névvel a szerverre a képet.
-    ajánlot méret, 1200x630px!!! konvertáljam chatgpt-vel ha tudom-->
+    <meta property="og:image" content="https://www.magyartengertaxi.hu/img/og-image.jpg">
     <meta name="theme-color" content="#1b2750">
     <meta property="og:site_name" content="Magyar Tenger Taxi">
     <meta property="og:locale" content="hu_HU">
@@ -20,7 +20,6 @@
     <meta name="twitter:title" content="Magyar Tenger Taxi - Személyszállítás a Balatonnál">
     <meta name="twitter:description" content="Gyors, kényelmes és megbízható fuvar a Balaton körül. Indulj velünk!!">
     <meta name="twitter:image" content="https://www.magyartengertaxi.hu/img/twitter-card.jpg">
-    <!--ugyanaz legyen mint fentebb az "og:image"-->
     <link rel="stylesheet" href="css/styles_vizsga.css">
     <link rel="icon" type="image/png" href="img/favicon_black-white.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -29,11 +28,11 @@
 <body>
     <div class="hero-background"></div>
     <nav class="nav">
-        <a href="index_vizsga.html">
-            <div class="logo"><img src="img/logo_white.png"></div>
+        <a href="index.html">
+            <div class="logo"><img src="img/logo_white.png" alt="Magyar Tenger Taxi logó"></div>
         </a>
         <ul class="menu">
-            <li><a href="index_vizsga.html">Kezdőlap</a></li>
+            <li><a href="index.html">Kezdőlap</a></li>
             <li><a href="services.html">Szolgáltatások</a></li>
             <li><a href="about_us.html">Rólunk</a></li>
             <li><a href="contact.html">Kapcsolat</a></li>
@@ -46,7 +45,7 @@
     </nav>
     <div class="nav-separator"></div>
 
-   
+
     <section class="hero">
         <h1><span class="hero-main">Magyar Tenger Taxi</span><br>
             <span class="hero-divider-wrapper"><span class="hero-divider"></span></span>
@@ -58,45 +57,108 @@
         </p>
     </section>
 
-        <section class="events">
-            <h2>Személyszállítás
-                <span class="h2-divider"></span>
-            </h2>
-            <p>A Balaton nemcsak nyaralásról szól - tele van élettel, eseménnyel és élményekkel. Mi akkor is veled
-                vagyunk, amikor csak egy kicsit lazítanál, vagy amikor időre és biztonságosan kell eljutnod valahova.
-            </p>
-            <p>Legyen szó:</p>
-            <div class="events_list">
-                <img class="small_icons" src="img/grapes.png" alt="Fesztivál ikon">
+    <section class="events">
+        <h2>Személyszállítás
+            <span class="h2-divider"></span>
+        </h2>
+        <p>A Balaton nemcsak nyaralásról szól - tele van élettel, eseménnyel és élményekkel. Mi akkor is veled
+            vagyunk, amikor csak egy kicsit lazítanál, vagy amikor időre és biztonságosan kell eljutnod valahova.
+        </p>
+        <p>Legyen szó:</p>
+        <div class="events-grid">
+            <div class="events-list">
+                <img src="img/grapes.png" alt="Szőlő és borospohár ikon">
                 <p>borkóstolóról vagy fesztiválról, ahol inkább nem ülnél volán mögé,</p>
             </div>
-
-            <div class="events_list">
-                <img class="small_icons" src="img/sing.png" alt="Kulturális program ikon">
+            <div class="events-list">
+                <img src="img/sing.png" alt="Mikrofon ikon">
                 <p>kulturális programról - színház, koncert, előadás -, ahol nem akarsz parkolóhelyet keresgélni,</p>
             </div>
-
-            <div class="events_list">
+            <div class="events-list">
                 <img src="img/teamwork.png" alt="Csapatépítő ikon">
                 <p>céges csapatépítőről, ahol a kollégák is kényelmesen utaznának,</p>
             </div>
-
-            <div class="events_list">
+            <div class="events-list">
                 <img src="img/trail.png " alt="Kirándulás ikon">
                 <p>kirándulásról vagy túráról, ahol a kiinduló- és végpont különböző,</p>
             </div>
-
-            <div class="events_list">
-                <img src="img/cheers.png" alt="Baráti sör ikon">
+            <div class="events-list">
+                <img src="img/cheers.png" alt="Koccintás ikon">
                 <p>vagy akár egy baráti sörözésről, amikor a legfontosabb: biztonságosan hazaérj.</p>
             </div>
-
-            <div class="events_list">
-                <img src="img/driver.png" alt="Baráti sör ikon">
+            <div class="events-list">
+                <img src="img/driver.png" alt="Sofőr ikon">
                 <p>Mi rugalmasan igazodunk hozzád - indulunk, amikor mondod, és ott várunk, ahol kéred.</p>
             </div>
-        </section>
-    
+        </div>
+    </section>
+
+    <section class="discounts">
+        <h2 class="discounts-title">Kedvezményeink</h2>
+        <span class="h2-divider"></span>
+        <div class="discounts-container">
+            <div class="discount-card">
+                <div class="discount-img" style="background-image: url('img/pre-booking.jpg');"
+                    alt="Toll és notesz kép"></div>
+                <h3>Előfoglalási kedvezmény</h3>
+                <p>Foglalj legalább 3 nappal korábban, és automatikusan 10% kedvezményben részesülsz az alapárból!</p>
+            </div>
+            <div class="discount-card">
+                <div class="discount-img" style="background-image: url('img/group-trip.jpg');"
+                    alt="Két fiatal lány ül egy auto tetején kép"></div>
+                <h3>Csoportos utazás</h3>
+                <p>4 fő felett 15% kedvezményt biztosítunk, hogy a társaság még jobban érezze magát – és spóroljon is!
+                </p>
+            </div>
+            <div class="discount-card">
+                <div class="discount-img" style="background-image: url('img/reward.jpg');"
+                    alt="Meglepetés átnyújtása kép"></div>
+                <h3>Hűségprogram</h3>
+                <p>Ha visszatérő utas vagy, minden 5. fuvar után jár egy 20%-os kupon a következő útra.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="events">
+        <h2>Csomagszállítás
+            <span class="h2-divider"></span>
+        </h2>
+        <p>Nemcsak utasokat, hanem kisebb csomagokat is szállítunk gyorsan és megbízhatóan - akár sürgős fuvarról, akár
+            tervezett küldeményről van szó.</p>
+
+        <div class="events-list">
+            <img class="small-icons" src="img/gift-card.png" alt="Küldemény ikon">
+            <p>Dokumentumok, kulcsok vagy kisebb csomagok gyors célba juttatása a Balaton körül.</p>
+        </div>
+
+        <div class="events-list">
+            <img class="small-icons" src="img/time-bomb.png" alt="Időpontra szállítás ikon">
+            <p>Előre egyeztetett időpontban történő csomagfelvétel és -átadás, akár hétvégén is.</p>
+        </div>
+
+        <div class="events-list">
+            <img class="small-icons" src="img/safety.png" alt="Biztonság ikon">
+            <p>Diszkrét és biztonságos szállítás - nem hagyjuk postán, nem bízzuk másra.</p>
+        </div>
+        <a href="contact.html" class="subtle-cta">Kérj ajánlatot csomagszállításra</a>
+    </section>
+
+    <section class="balaton-feel">
+        <div class="balaton-text">
+            <h2>A Balaton más, ha veled vagyunk</h2>
+            <p>
+                Ismerjük minden kis utcáját, tudjuk, hol süt be a nap a legszebben reggel, és azt is, hol érdemes
+                megállni egy gyors fotóhoz.
+                Ha velünk utazol, nem csak célba érsz - átélheted a balatoni nyár igazi hangulatát: a friss levegőt, a
+                panorámát, a nyugodt tempót.
+                Nincs stressz, nincs parkolóvadászat, csak a Balaton - és te, az utas.
+            </p>
+            <a href="contact.html" class="balaton-cta subtle-cta">Taxi rendelés</a>
+        </div>
+        <div class="balaton-image">
+            <img src="img/Balaton-mood.png" alt="Balaton hangulat kép">
+        </div>
+    </section>
 
     <footer>
         <p>&copy; 2025 Magyar Tenger Taxi - Személyszállítás a Balaton körül</p>
@@ -110,12 +172,13 @@
             </a>
         </div>
     </footer>
+
     <a href="tel:+36301234567" class="cta-button">
         <i class="fa-solid fa-phone fa-lg icon-outline"></i> Hívás azonnal
     </a>
 
-    <script src="js/toggle_menu.js"></script>
-    <script src="js/form_validate.js"></script>
+    <script src="js/toggle-menu.js"></script>
+    <script src="js/form-validate.js"></script>
 </body>
 
 </html>
